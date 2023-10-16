@@ -1,0 +1,422 @@
+@font-face {
+ font-family: spartan;
+ src: url(../fonts/spartan-variable-font.ttf);
+}
+
+html, body {
+    margin: 0;
+    color: #ffffff;
+    font-family: spartan, sans-serf;
+}
+h1 {
+    font-family: spartan, san-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+h2 {
+    text-transform: uppercase;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover {
+    color: #d62676;
+}
+.vibe-btn-dark {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 12px 20px 10px 20px;
+    background: #d62676;
+}
+.vibe-btn-dark:hover {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 12px 20px 10px 20px;
+    color: #d62676;
+    background: #ffffff;
+}
+
+/* Navbar */
+.navbar-nav {
+    background: #040716;
+}
+.navbar-brand {
+    font-weight: 800;
+}
+.nav-item {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Main Hero */
+#hero-main {
+  height: 100vh;
+  width: 100%;
+}
+#hero-main .carousel-item {
+  height: 100vh;
+  width: 100%;
+}
+.carousel-control-next, .carousel-control-prev {
+    top: 365;
+}
+.hero-slide-1 {
+    padding: 27vh 0;
+    background: url(../img/hero-main-bg-4.jpg);
+    background-size: cover;
+}
+.hero-slide-2 {
+    padding: 27vh 0;
+    background: url(../img/hero-main-bg-5.jpg);
+    background-size: cover;
+}
+.hero-slide-3 {
+    padding: 27vh 0;
+    background: url(../img/image-1.jpg);
+    background-size: cover;
+}
+  .hero-main h1 {
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+  .hero-main .subtitle {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    letter-spacing: 3;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.section-title h2 {
+  font-weight: 800;
+}
+.vibe-hr {
+  width: 60px;
+  height: 3px;
+  background: #d62676;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+/* Tour Section */
+#tour {
+  padding: 7rem 0;
+  background: #040716;
+}
+#tour .event-item {
+  margin-bottom: 1rem;
+}
+#tour hr {
+  margin-bottom: 1.3rem;
+}
+#tour .date {
+  font-size: 2.9rem;
+  font-weight: 800;
+}
+#tour .date-item {
+  padding-top: 0.3rem;
+}
+#tour .month {
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+#tour .year {
+  font-size: 0.8rem;
+}
+#tour .city {
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+#tour .state {
+  font-size: 0.8rem;
+}
+#tour .location {
+  text-align: right;
+  padding-top: 0.3rem;
+}
+#tour .event-title {
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+#tour .ticket-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* New Album Section */
+#new-album {
+  padding: 7rem 0;
+  background: #040716;
+}
+
+/* About Us Section */
+#about-us {
+  padding: 7rem 0;
+  background: #040716;
+  background: url(../img/hero-main-bg-5.jpg);
+  background-size: cover;
+}
+#about-us h2 {
+  font-weight: 800;
+}
+
+/* Artists Section */
+#artists {
+  padding: 7rem 0;
+  background: #000;
+}
+#artists h3 {
+  font-weight: 800;
+  color: #d62676;
+  text-transform: uppercase;
+  text-align: center;
+}
+#artists .artist-info {
+  text-align: center;
+}
+#artists img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+/* Merch Section */
+#merch {
+  padding: 7rem 0;
+  background: #040716;
+}
+#merch .item {
+  margin-bottom: 4rem;
+}
+#merch img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+#merch h3 {
+  text-align: center;
+  font-weight: 800;
+  color: #d62676;
+}
+#merch .info {
+  text-align: center;
+}
+
+/* Video Section */
+#video {
+  padding: 7rem 0;
+  background: #040716;
+}
+
+/* Footer */
+.footer {
+  padding: 5rem 0px 0px 0px;
+  background: #000;
+  color: #ffffff;
+  }
+.footer-title {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #d62676;
+  }
+  .footer .col-12 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .footer ul {
+    padding-left: 0;
+  }
+  .footer ul li {
+    color: #ffffff;
+    list-style: none;
+  }
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color: #d62676;
+  }
+  .footer-social div {
+    display: inline-block;
+    margin-right: 0.7rem;
+  }
+  .footer-social-icon-facebook {
+    background: url(../img/facebook.svg) no-repeat;
+    height: 45px;
+    max-width: 1.5rem;
+    width: 100%;
+  }
+  .footer-social-icon-facebook:hover {
+    background: url(../img/facebook-red.svg) no-repeat;
+    height: 45px;
+    max-width: 1.5rem;
+    width: 100%;
+  }
+  .footer-social-icon-instagram {
+    background: url(../img/instagram.svg) no-repeat;
+    height: 45px;
+    max-width: 1.5rem;
+    width: 100%;
+  }
+  .footer-social-icon-instagram:hover {
+    background: url(../img/instagram-red.svg) no-repeat;
+    height: 45px;
+    max-width: 1.5rem;
+    width: 100%;
+  }
+  .footer-social-icon-twitter {
+    background: url(../img/twitter.svg) no-repeat;
+    height: 45px;
+    max-width: 1.5rem;
+    width: 100%;
+  }
+  .footer-social-icon-twitter:hover {
+    background: url(../img/twitter-red.svg) no-repeat;
+    height: 45px;
+    max-width: 1.5rem;
+    width: 100%;
+  }
+  .footer-social-icon-pintrest {
+    background: url(../img/pinterest.svg) no-repeat;
+    height: 45px;
+    max-width: 1.5rem;
+    width: 100%;
+  }
+  .footer-social-icon-pintrest:hover {
+    background: url(../img/pinterest-red.svg) no-repeat;
+    height: 45px;
+    max-width: 1.5rem;
+    width: 100%;
+  }
+  .footer-bottom p {
+    font-size: 12px;
+    margin: 0;
+    padding-bottom: 1.4rem;
+  }
+  .footer-logo-section {
+    padding-top: 2rem;
+  }
+  .footer-logo-section .footer-logo {
+    width: 150px;
+    margin-bottom: 1.5rem;
+  }
+  .footer-bio {
+    padding: 0 3rem 0 0;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+  }
+  .footer-links {
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+  .footer-links li {
+    font-size: 14px;
+    margin-bottom: 0.25rem;
+    font-style: normal;
+  }
+  .footer-blog-links {
+    padding-top: 2rem;
+  }
+  .footer-blog-links li {
+    font-size: 14px;
+    margin-bottom: 0.25rem;
+    line-height: 1.2;
+  }
+  .footer-blog-links img {
+    margin-right: 1.2rem;
+    margin-top: -0.6rem;
+  }
+  .footer-blog-item {
+    display: flex;
+    align-content: space-between;
+  }
+  .footer-contact {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  /* Media Queries */
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        background: inherit;
+    }
+    .carousel-control-next, .carousel-control-prev {
+      top: 465;
+    }
+    .hero-slide-1 {
+      padding: 350px 0;
+    }
+    .hero-slide-2 {
+      padding: 350px 0;
+    }
+    .hero-slide-3 {
+      padding: 350px 0;
+    }
+    .footer-logo-section {
+        text-align: inherit;
+      }
+      .footer-logo-section p {
+        text-align: inherit;
+      }
+      .footer-logo-section .footer-logo {
+        margin-left: -7px;
+      }
+      .footer-bio {
+        padding-right: 2rem;
+        padding-left: 0px;
+        font-size: 14px;
+        margin-right: 3rem;
+      }
+      .footer-links {
+        text-align: inherit;
+      }
+      .footer-blog-links {
+        text-align: inherit;
+        margin-bottom: 5rem;
+      }
+      .footer-contact {
+        text-align: inherit;
+      }
+      .footer-social {
+        margin: 2rem 0 2rem 0;
+        text-align: initial;
+      }
+}
+@media (min-width: 992px) {
+    .footer-social {
+        margin: 0 0 3rem 0;
+      }
+      .footer-blog-links {
+        margin-left: -4rem;
+        margin-right: 3rem;
+      }
+      .footer-logo-section .footer-logo {
+        margin-bottom: 2rem;
+      }
+      .footer-title {
+        margin-bottom: 2rem;
+      }
+      .footer-bio {
+        margin-bottom: 2rem;
+      }
+}
+@media (min-width: 1200px) {
+}
