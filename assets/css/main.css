@@ -42,12 +42,15 @@ a:hover {
     color: #d62676;
     background: #ffffff;
 }
+.absolute-top {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
 
 /* Navbar */
-.navbar {
-  position: absolute;
-  z-index: 1000;
-}
 .navbar-nav {
     background: #040716;
 }
