@@ -27,7 +27,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a></li>
+          <a class="nav-link active" aria-current="page" href="#">Home</a></li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a></li>
         <li class="nav-item dropdown">
