@@ -44,6 +44,10 @@ a:hover {
 }
 
 /* Navbar */
+.navbar {
+  position: absolute;
+  z-index: 1000;
+}
 .navbar-nav {
     background: #040716;
 }
